@@ -19,5 +19,19 @@ function getSidebar() {
         { text: '浏览器', link: '/guide/dev-tool/browser' }
       ]
     },
+    {
+      text: '笔记工具',
+      collapsible: true,
+      items: [
+        { text: 'Obsidian', link: '/guide/note/obsidian' },
+      ]
+    },
+    {
+      text: '资源整合',
+      collapsible: true,
+      items: [
+        { text: 'Mac', link: '/guide/resource/' },
+      ]
+    },
   ];
 }

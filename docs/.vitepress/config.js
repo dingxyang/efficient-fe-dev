@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress';
 export default defineConfig({
   title: 'FE-DEV',
   lastUpdated: true,
-  base: "/fe-dev/",
+  base: "/efficient-fe-dev/",
   themeConfig: {
     lastUpdatedText: '最后更新',
     sidebar: getSidebar(),

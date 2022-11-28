@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress';
 export default defineConfig({
   title: 'FE-DEV',
   lastUpdated: true,
+  base: "/fe-dev/",
   themeConfig: {
     lastUpdatedText: '最后更新',
     sidebar: getSidebar(),
@@ -31,6 +32,7 @@ function getSidebar() {
       collapsible: true,
       items: [
         { text: 'Mac', link: '/guide/resource/' },
+        { text: 'TypeScript', link: '/guide/resource/TypeScript' },
       ]
     },
   ];

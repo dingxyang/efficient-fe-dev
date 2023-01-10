@@ -3,7 +3,6 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "FE-DEV",
   lastUpdated: true,
-  base: "/efficient-fe-dev/",
   themeConfig: {
     nav: nav(),
     sidebar: {

@@ -2,6 +2,7 @@
 
 ## 快捷键
 - 打开开发者工具 `option + command + i`
+- 显示/关闭书签栏 `command + shirt + B`
 
 
 ## 文章
